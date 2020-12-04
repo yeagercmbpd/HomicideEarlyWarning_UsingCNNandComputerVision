@@ -22,7 +22,7 @@ Technical Notebook: <a href=https://github.com/yeagercmbpd/Identifying_Victim_Cl
 ---
 
 ## The Data
-The primary dataset which will be used in this analysis is the victim based part 1 crime table, produced by the Baltimore City Police Department. [test](https://data.baltimorecity.gov/api/views/wsfq-mvij/rows.csv?accessType=DOWNLOAD). It reports crimes based upon each victim, rather than occurance, and thus each row can be thought of as a victim. The dataset at the time I accessed it consisted of almost 280,000 records and 22 columns. The data from 01/01/2014 through 10/31/2020 was used to produce over 29,000 individual maps. Each map represents a 2 hour window in time. All crimes which took place within that window are plotted into the map as a color coded point. Additionally, neighborhood outlines within the city are included. Any neighborhood which experienced a crime of any type during this time is highlighted in red, all others are in black. Please find an example map below:
+The [primary dataset](https://data.baltimorecity.gov/api/views/wsfq-mvij/rows.csv?accessType=DOWNLOAD) which will be used in this analysis is the victim based part 1 crime table, produced by the Baltimore City Police Department. It reports crimes based upon each victim, rather than occurance, and thus each row can be thought of as a victim. The dataset at the time I accessed it consisted of almost 280,000 records and 22 columns. The data from 01/01/2014 through 10/31/2020 was used to produce over 29,000 individual maps. Each map represents a 2 hour window in time. All crimes which took place within that window are plotted into the map as a color coded point. Additionally, neighborhood outlines within the city are included. Any neighborhood which experienced a crime of any type during this time is highlighted in red, all others are in black. Please find an example map below:
 
 <p align="center">
    <img src=https://github.com/yeagercmbpd/Identifying_Victim_Clusters_In_Baltimore_CIty_Police_Data/blob/main/patch.png>
@@ -31,8 +31,8 @@ The primary dataset which will be used in this analysis is the victim based part
 </div>
 </p>
 
-The neighborhood shapefile used can be found at the folowing address, maintained by Baltimore City:
-[https://data.baltimorecity.gov/api/views/2ktz-dadz/rows.csv?accessType=DOWNLOAD](https://data.baltimorecity.gov/api/views/2ktz-dadz/rows.csv?accessType=DOWNLOAD)
+The neighborhood [shapefile](https://data.baltimorecity.gov/api/views/2ktz-dadz/rows.csv?accessType=DOWNLOAD) used in the plotting of the maps is maintained by Baltimore City.
+
 
 ---
 
