@@ -28,7 +28,7 @@ The [primary dataset](https://data.baltimorecity.gov/api/views/wsfq-mvij/rows.cs
    <img src=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Images/201401_03407.png>
    <img src=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Images/201401_0400355.png>
    <img src=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Images/201401_0530122.png>
-   <img src=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Images/201401_06008.png>
+   <img src=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Images/Legend.png>
 <div align="center">
    <figcaption></figcaption>
 </div>
