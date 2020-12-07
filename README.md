@@ -53,18 +53,27 @@ CNN-32mp-64mp-218mp-Dense-512
 
 The structure was tweaked and the idea of data augmentation to stretch the effectiveness of a small sample size was employed. Much better results with steady increase of validation and training accuracy, and steady and uniform decrease of losses. After 60 epochs a validation accuracy of .78 was acheived. A holdout test dataset yielded an average  prediciton accuracy of .784 after 50 runs of 15 image batches.
    
-## Lessons Learned / Looking Forward
-Dimensionality reduction became neessary to complete the analysis and model upon adding all of the additional features within the census based data set.
-Having access to individual victim information rather than generalizing it basd on census data would lead to an incredibly more specific result and allow for a very powerful clustering model. 
+## Conclusion / Lessons Learned / Looking Forward
+We have managed to acheive our goal and train a model which can look at snapshots of crime in space and time within Baltimore City and make a prediction as to whether or not a homicide/shooting event is likely to occur. Our concept has been proven as being possible.
+
+Moving forward, improvements can certainly be made to this existing model. Fine tuning of model structure and hyperparameters could likely yield a slightly better performing model. This could include tweaking such things as the learning rate, implementing decay in different forms, finding the best activation, optimization, and loss functions, or adjusting the number and structure of the different layers. Training for additional ephocs would also almost certainly help, the model was still steadily improving where we left off. 
+
+Adding additional data to the map images could also help in making more accurate predictions. Calls for service points, demographics, historic crime trends, and narcotics intelligence could all be added and suppliment the model.
+
+experimenting with lagging the model may also allow for an increased amount of warning time before a potential incident. 
+
+As building a neural network is, in the words of Andrew Ng, a "very emprical process" we know that more fine tuning can be done here. Due to time constraints and computing capabilities I was not able to explore all of the possibities available to producing the absolute best model within my working window. What we have come up with is a model which proves our idea is feasible and that can provide the promise of a tool which could help in stemming the violent crime epidemic in Baltimore City.
   
 ---
 ## PackagesandCredits
 <pre>
 By : <a href=https://github.com/yeagercmbpd>Christopher Yeager</a>
+Inspiration and coding for data augmentation from [Murat Gruner UMBC Data 602](https://github.com/mguner/UMBC_DATA602/blob/master/lectures/week-12/Convolutional%20Neural%20Networks%20-%20Part%20-%20I.ipynb)
+[Coding and concept assistance](https://pythonprogramming.net/introduction-deep-learning-python-tensorflow-keras/)
 </pre>
 
 <pre>
 Languages    : Python
 Tools/IDE    : Jupyter
-Libraries    : pandas, numpy, matplotlib, sklearn, seaborn,geopandas, tensorflow, keras
+Libraries    : pandas, numpy, matplotlib, sklearn, seaborn,geopandas, tensorflow, keras,statistics,cv2,shutil,pickle,random,time
 </pre>
