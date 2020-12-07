@@ -21,8 +21,6 @@ Historically, the majority of the violent crime which plagues Baltimore City has
 <a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Model%201.ipynb>Model 1</a>
 <a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Model2.ipynb>Model 2</a>
 <a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/OneDay_Model_Depoyment_DataGen.ipynb>Model Implimentation Single Day Image Generator</a>
-
-
 </pre>
 ---
 
@@ -74,8 +72,9 @@ As building a neural network is, in the words of Andrew Ng, a "very emprical pro
 <pre>
 By : <a href=https://github.com/yeagercmbpd>Christopher Yeager</a>
 Inspiration and coding for data augmentation from: <a href=https://github.com/mguner/UMBC_DATA602/blob/master/lectures/week-12/Convolutional%20Neural%20Networks%20-%20Part%20-%20I.ipynb> Murat Gruner UMBC Data 602</a>
+<a href=https://pythonprogramming.net/introduction-deep-learning-python-tensorflow-keras/> Coding and Concept Assistance</a>
 </pre>
-[Coding and concept assistance](https://pythonprogramming.net/introduction-deep-learning-python-tensorflow-keras/)
+
 <pre>
 Languages    : Python
 Tools/IDE    : Jupyter
