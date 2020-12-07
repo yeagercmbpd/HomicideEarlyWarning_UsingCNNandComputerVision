@@ -16,7 +16,7 @@ Historically, the majority of the violent crime which plagues Baltimore City has
 ---
 ### Repository Navigation
 <pre>
-<a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/TechnicalNotebook.ipynb>Technical Notebook/Report</a>
+<a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/TechnicalNotebook.ipynb>Technical Notebook/Report</a>
 <a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Data%20Preparation%20and%20Creation.ipynb>Primary Data Cleaning and Image Generation</a>
 <a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Model%201.ipynb>Model 1</a>
 <a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Model2.ipynb>Model 2</a>
