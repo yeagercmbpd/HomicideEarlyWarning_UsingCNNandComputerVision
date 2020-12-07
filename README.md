@@ -42,14 +42,16 @@ The neighborhood [shapefile](https://data.baltimorecity.gov/api/views/2ktz-dadz/
 ## Summary
 
 **Model 1**
-CNN-128x1-64x2-Dense-64x1-32x1
+CNN-128mp-64x2mp-Dense-64-32
+
 The validation accuracy measured over 20 epochs only gets to around 60%, not a great result. Also, taking a look at the tensorboard output we see a huge divergence between training loss and validation loss. We also see a decreasing validation accuracy as the epochs go on. I attributed this to the model potentially memorizing the inputs and overfitting the data.
 
 At this point I decided to scrap this model and try again.
    
-**Part 2: Incorporating demographic data into the victim data**
+**Model 2**
+CNN-32mp-64mp-218mp-Dense-512
 
-   Much more distinct clusters identified. interesting patterns which fall in line with outside analysis identified. Basic victim profiles could be generated.
+The structure was tweaked and the idea of data augmentation to stretch the effectiveness of a small sample size was employed. Much better results with steady increase of validation and training accuracy, and steady and uniform decrease of losses. After 60 epochs a validation accuracy of .78 was acheived. A holdout test dataset yielded an average  prediciton accuracy of .784 after 50 runs of 15 image batches.
    
 ## Lessons Learned / Looking Forward
 Dimensionality reduction became neessary to complete the analysis and model upon adding all of the additional features within the census based data set.
