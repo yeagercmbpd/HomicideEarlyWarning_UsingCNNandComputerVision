@@ -41,9 +41,11 @@ The neighborhood [shapefile](https://data.baltimorecity.gov/api/views/2ktz-dadz/
 
 ## Summary
 
-**Part 1: Crime data only**
+**Model 1**
+CNN-128x1-64x2-Dense-64x1-32x1
+The validation accuracy measured over 20 epochs only gets to around 60%, not a great result. Also, taking a look at the tensorboard output we see a huge divergence between training loss and validation loss. We also see a decreasing validation accuracy as the epochs go on. I attributed this to the model potentially memorizing the inputs and overfitting the data.
 
-  Clusters found with moderate density and variation. Looking strictly at the data available within this set did not yield much in the way of insight.
+At this point I decided to scrap this model and try again.
    
 **Part 2: Incorporating demographic data into the victim data**
 
