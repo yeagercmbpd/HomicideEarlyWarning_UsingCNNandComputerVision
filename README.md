@@ -7,7 +7,7 @@
 
 A Homicide and Shooting Early Warning System 
 ---
-using Baltimore Police Crime Data, Computer Vision, and Convolutional Neural Networks
+Using Baltimore Police Crime Data, Computer Vision, and Convolutional Neural Networks
 
 ---
 ### Overview and Project Goals
