@@ -16,7 +16,12 @@ Historically, the majority of the violent crime which plagues Baltimore City has
 ---
 ### Repository Navigation
 <pre>
-Technical Notebook: <a href=https://github.com/yeagercmbpd/Identifying_Victim_Clusters_In_Baltimore_CIty_Police_Data/blob/main/Detecting%20Victim%20Groupings%20in%20Baltimore%20Crime%20Data.ipynb>Technical Notebook/Report</a>
+<a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/TechnicalNotebook.ipynb>Technical Notebook/Report</a>
+<a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Data%20Preparation%20and%20Creation.ipynb>Primary Data Cleaning and Image Generation</a>
+<a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Model%201.ipynb>Model 1</a>
+<a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/Model2.ipynb>Model 2</a>
+<a href=https://github.com/yeagercmbpd/HomicideEarlyWarning_UsingCNNandComputerVision/blob/main/Notebooks/OneDay_Model_Depoyment_DataGen.ipynb>Model Implimentation Single Day Image Generator</a>
+
 
 </pre>
 ---
