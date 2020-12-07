@@ -68,10 +68,10 @@ As building a neural network is, in the words of Andrew Ng, a "very emprical pro
 ## PackagesandCredits
 <pre>
 By : <a href=https://github.com/yeagercmbpd>Christopher Yeager</a>
+
+</pre>
 Inspiration and coding for data augmentation from [Murat Gruner UMBC Data 602](https://github.com/mguner/UMBC_DATA602/blob/master/lectures/week-12/Convolutional%20Neural%20Networks%20-%20Part%20-%20I.ipynb)
 [Coding and concept assistance](https://pythonprogramming.net/introduction-deep-learning-python-tensorflow-keras/)
-</pre>
-
 <pre>
 Languages    : Python
 Tools/IDE    : Jupyter
